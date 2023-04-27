@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contacts List</title>
+  <link rel="stylesheet" href="file/css/style.css">
+</head>
+<body>
+  <h1>Contact List</h1>
+
+  <form id="add-contact-form">
+    <label for="name-input">Name:</label>
+    <input type="text" id="name-input" required>
+
+    <label for="phone-input">Phone:</label>
+    <input type="tel" id="phone-input" required>
+
+    <label for="email-input">Email:</label>
+    <input type="email" id="email-input" required>
+
+    <button type="submit">Add Contact</button>
+  </form>
+
+  <div class="search-container">
+    <label for="search-input">Search by Name:</label>
+    <input type="text" id="search-input" onkeyup="searchByName()" placeholder="Search...">
+  </div>
+
+  <table id="contacts-table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Phone</th>
+        <th>Email</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+  }
+  
+  label {
+    margin: 0.5em;
+  }
+  
+  input[type=text], input[type=tel], input[type=email] {
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  button[type=submit] {
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[type=submit]:hover {
+    background-color: #3e8e41;
+  }
+  
+  .search-container {
+    margin: 1em 0;
+  }
+  
+  #search-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  #contacts-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #contacts-table th, #contacts-table td {
+    text-align: left;
+    padding: 0.5em;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #contacts-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .action-button {
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+  
